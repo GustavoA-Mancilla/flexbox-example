@@ -29,7 +29,6 @@
 .blue {
     background-color: blue;
     align-self: flex-end;
-    /* order: 3; */
 }
 
 .violet {
