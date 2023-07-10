@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.red, .yellow, .blue {
+.red, .yellow, .blue, .violet, .green {
     height: 200px;
     width: 200px;
     display: flex;
@@ -30,4 +30,15 @@
     background-color: blue;
     align-self: flex-end;
     /* order: 3; */
+}
+
+.violet {
+    background-color: violet;
+    align-self: flex-start;
+    order:-2;
+}
+
+.green {
+    background-color: green;
+    align-self: flex-end;
 }
